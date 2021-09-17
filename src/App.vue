@@ -1,15 +1,13 @@
 <template>
-<div>HI</div>
+  <div>HI</div>
 </template>
 
 <script>
-console.log("Hello World");
+console.log('Hello World');
 
 export default {
-  name: "App"
-}
+  name: 'App',
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

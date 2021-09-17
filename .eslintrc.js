@@ -19,5 +19,7 @@ module.exports = {
   plugins: ['vue', '@typescript-eslint', 'prettier'],
   rules: {
     'prettier/prettier': 'error',
+    '@typescript-eslint/no-var-requires': 'off',
+    'import/no-anonymous-default-export': 'off',
   },
 };

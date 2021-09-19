@@ -1,15 +1,17 @@
 <template>
-  <Button content="hi" />
+  <button>{{ content }}</button>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
-import Button from '@/components/Button.vue';
 
 export default defineComponent({
-  name: 'App',
-  components: {
-    Button,
+  name: 'Button',
+  props: {
+    content: {
+      type: String,
+      default: 'content',
+    },
   },
 });
 </script>

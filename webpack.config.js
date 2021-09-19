@@ -1,6 +1,11 @@
+const path = require('path');
+
 module.exports = {
   resolve: {
     extensions: ['.vue', '.ts', '.tsx', '.js', '.jsx'],
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+    },
   },
   module: {
     rules: [

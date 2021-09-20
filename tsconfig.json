@@ -21,6 +21,8 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
+    "stories/**/*.ts",
+    "stories/**/*.tsx",
     "tests/**/*.ts",
     "tests/**/*.tsx"
   ],

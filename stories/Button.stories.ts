@@ -22,3 +22,8 @@ const Template: Story = (args) => ({
 
 export const Default = Template.bind({});
 Default.args = {};
+
+export const WithContent = Template.bind({});
+WithContent.args = {
+  content: 'hello world',
+};

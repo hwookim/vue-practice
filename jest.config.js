@@ -8,7 +8,8 @@ module.exports = {
   globals: {},
   testEnvironment: 'jsdom',
   transform: {
-    '^.+\\.vue$': 'vue-jest',
+    '^.+\\.vue$': 'vue3-jest',
+    '^.+\\js$': 'babel-jest',
   },
   transformIgnorePatterns: ['<rootDir>/node_modules/'],
 };

@@ -1,8 +1,8 @@
 {
-  "name": "vue-practice",
+  "name": "vue-without-cli",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:hwookim/vue-practice.git",
+  "repository": "git@github.com:hwookim/vue-without-cli.git",
   "author": "hwookim <gusdn9754@gmail.com>",
   "license": "MIT",
   "scripts": {

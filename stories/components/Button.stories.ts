@@ -1,5 +1,5 @@
-import Button from '@/components/Button.vue';
 import { Story } from '@storybook/vue3';
+import Button, { ButtonProps } from '@/components/Button.vue';
 
 export default {
   title: 'Button',
@@ -12,7 +12,7 @@ export default {
   },
 };
 
-const Template: Story = (args) => ({
+const Template: Story<ButtonProps> = (args) => ({
   components: { Button },
   setup() {
     return { args };

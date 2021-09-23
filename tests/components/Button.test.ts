@@ -1,5 +1,6 @@
 import { shallowMount } from '@vue/test-utils';
 import Button from '@/components/Button.vue';
+// TODO: import { ButtonProps } from '@/components/Button.vue'; 인식 못함
 
 describe('Button', () => {
   describe('with content', () => {

@@ -2,17 +2,15 @@
   <button>{{ content }}</button>
 </template>
 
-<script lang="ts">
-import { defineComponent, PropType } from 'vue';
+<script lang="ts" setup>
+import { defineProps, withDefaults } from 'vue';
 
-export default defineComponent({
-  name: 'Button',
-  props: {
-    content: {
-      type: String as PropType<string | undefined>,
-      default: 'content',
-    },
-  },
+export interface ButtonProps {
+  content?: string;
+}
+
+withDefaults(defineProps<ButtonProps>(), {
+  content: 'content',
 });
 </script>
 

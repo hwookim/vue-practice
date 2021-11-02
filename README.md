@@ -47,3 +47,17 @@ yarn storybook
 ├── stories
 └── tests
 ```
+
+---
+
+## Troubleshooting
+
+### jest 실행 시 vue3 파일 로드 문제
+
+[shims-vue.d.ts](https://github.com/hwookim/vue3-without-cli/blob/master/src/shims-vue.d.ts) 추가로 vue 파일 호출 시 DefineComponent를 로드하도록 설정 
+`babel preset-env/preset-typescript`, `babel-jest`를 통해 vue 내 typescript 구문을 읽어올 수 있도록 수정
+
+### webpack5 storybook version error
+
+storybook을 쓰기 위해 webpack4 버전으로 다운그래이드 하자 cli, dev-server와 충돌 발생
+storybook core 옵션에 `webpack5`를 명시해 오류 해결

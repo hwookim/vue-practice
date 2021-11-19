@@ -48,8 +48,6 @@ yarn storybook
 └── tests
 ```
 
----
-
 ## Troubleshooting
 
 ### jest 실행 시 vue3 파일 로드 문제
